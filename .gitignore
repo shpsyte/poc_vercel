@@ -1,0 +1,60 @@
+node_modules
+.DS_Store
+build
+public
+bundle.js
+config.js
+dev.js
+yarn.lock
+package-lock.json
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+vh-package/node_modules
+platform/node_modules
+client/node_modules
+
+platform/config.js
+
+
+
+vh-package/.pnp
+platform/.pnp
+client/.pnp
+
+
+vh-package/.pnp.js
+platform/.pnp.js
+client/.pnp.js
+
+
+# testing
+/coverage
+
+# production
+vh-package/build
+platform/build
+client/build
+
+vh-package/public
+platform/public
+client/public
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+yarn.lock
+platform/config.js
+package-lock.json
+
+platform/config.js

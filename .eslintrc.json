@@ -1,0 +1,65 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", "tsx"] }],
+    "import/prefer-default-export": "off",
+    "no-useless-return": "off",
+    "no-shadow": 0,
+    "no-plusplus": "off",
+    "array-callback-return": "off",
+
+    //    "implicit-arrow-linebreak": ["error", "beside"],
+    "no-constant-condition": "off",
+
+    "consistent-return": "off",
+    "react/self-closing-comp": "off",
+    "dot-notation": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "arrow-parens": ["error", "as-needed"],
+    "import/no-unresolved": [
+      2,
+      {
+        "ignore": [
+          "^@vh-packages|@config|@icons|@images|@assets|@services|@components|@customHooks|@amplitude|@helpers|@pages"
+        ]
+      }
+    ]
+  }
+}
