@@ -12,6 +12,7 @@ node_modules
 /og-image
 /public
 /server
+/api
 /seo
 
 config.js
