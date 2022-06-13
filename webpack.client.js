@@ -11,7 +11,7 @@ const config = {
   // Tell webpack where to put the output file
   // that is generated
   output: {
-    filename: `bundle-${VHConfig.version}.js`,
+    filename: `bundle-cli.js`,
     path: path.resolve(__dirname, 'public'),
   },
 };
