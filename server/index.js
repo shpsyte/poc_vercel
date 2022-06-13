@@ -24,7 +24,7 @@ app.get('*.js', (req, res, next) => {
   res.set('Content-Type', 'text/javascript');
   next();
 });
-app.use('/static-desktop', express.static('public'));
+app.use('/static-desktop', express.static('build/public'));
 app.use('/', express.static('seo'));
 
 app.get('*', render);
