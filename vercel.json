@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/api/(.*)", "destination": "/access" },
     { "source": "/access/(.*)", "destination": "/access" },
     { "source": "*.js", "destination": "/*.js" },
     { "source": "/static-desktop", "destination": "/static-desktop" },
