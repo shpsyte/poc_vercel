@@ -156,7 +156,7 @@ export default async (req, store, context) => {
   <body>
     <div id="root">${content}</div>
 
-    <script src="bundle-cli.js"></script>
+    <script src="bundle-${VHConfig.version}.js"></script>
     <script type="text/javascript" src="https://secure.perk0mean.com/js/176095.js"></script>
     <noscript><img src="https://secure.perk0mean.com/176095.png" alt="" style="display:none;" /></noscript>
     <!-- Google Tag Manager (noscript) -->
