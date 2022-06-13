@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/access" },
+    { "source": "/access/(.*)", "destination": "/access" },
+    { "source": "/static-desktop/(.*)", "destination": "/static-desktop" },
+    { "source": "/*", "destination": "/*" }
+  ]
+}
