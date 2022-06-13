@@ -1,7 +1,7 @@
 const path = require('path');
 const merge = require('webpack-merge');
 const baseConfig = require('./webpack.base');
-const VHConfig = require('./config');
+// const VHConfig = require('./config');
 
 const config = {
   // Tell webpack the root file of our
